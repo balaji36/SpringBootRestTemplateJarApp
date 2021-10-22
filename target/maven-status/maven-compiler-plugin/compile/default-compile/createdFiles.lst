@@ -1,0 +1,12 @@
+com\springboot\restcontroller\RestAppConTroller.class
+com\springboot\Myswaggerconfig.class
+exception\ErrorDetails.class
+com\springboot\model\Task.class
+com\springboot\service\TaskService.class
+exception\GlobalExceptionHandler.class
+com\springboot\App.class
+com\springboot\repository\TaskRepository.class
+com\springboot\resttemplate\RestTemplateServerApp.class
+com\springboot\resttemplate\RestTemplateRequestApp.class
+exception\ResourceNotFoundException.class
+com\springboot\controller\SpringControllerApp.class
