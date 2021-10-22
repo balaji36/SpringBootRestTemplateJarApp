@@ -30,7 +30,7 @@ public class TaskService {
 	}
 	public void inserting(String name, String addrs)
 	{
-		Task task = new Task(name, addrs, "false", new Date());
+		Task task = new Task(name, addrs, "false");
 		taskRepository.save(task);
 		
 	}

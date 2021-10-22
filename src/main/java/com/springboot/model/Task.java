@@ -52,17 +52,12 @@ public class Task implements Serializable{
 		this.finished = finished;
 	}
 
-	/*
-	 * public Date getDate() { return date; }
-	 * 
-	 * @Temporal(TemporalType.TIMESTAMP) public void setDate(Date date) { this.date
-	 * = date; }
-	 */
+	
 	private String name;
 	private String addrs;
 	
 	private String finished;
-	//private Date date;
+	
 	
 	@Override
 	public String toString() {
@@ -70,13 +65,13 @@ public class Task implements Serializable{
 				+ finished /* + ", date=" + date */
 				+ "]";
 	}
-	public Task(String name, String addrs, String finished, Date date) {
+	public Task(String name, String addrs, String finished) {
 		super();
 
 		this.name = name;
 		this.addrs = addrs;
 		this.finished = finished;
-		//this.date = date;
+		
 	}
 	public Task orElseThrow(Object object) {
 		// TODO Auto-generated method stub
